@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESTIEM LG Sevilla</title>
+<meta name="description" content="ESTIEM LG Sevilla — European Students of Industrial Engineering and Management, Grupo Local Sevilla.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%23701B31%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22%23C79A56%22 font-family=%22Georgia,serif%22>E</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================== TOPBAR ============================== -->
+<header class="topbar">
+  <div class="topbar-left">
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="sidebar">
+      <span></span><span></span><span></span>
+    </button>
+    <a href="#home" class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>
+        <span class="brand-name">ESTIEM LG Sevilla</span>
+        <span class="brand-sub">European Students of IEM</span>
+      </span>
+    </a>
+  </div>
+
+  <div class="lang-switch">
+    <button class="lang-btn" id="langBtn" aria-haspopup="true" aria-expanded="false">
+      <span id="langCurrent">Español</span>
+    </button>
+    <div class="lang-menu" id="langMenu" role="menu"></div>
+  </div>
+</header>
+
+<!-- ============================== SIDEBAR ============================== -->
+<div class="overlay" id="overlay"></div>
+<nav class="sidebar" id="sidebar" aria-label="Navegación principal">
+  <div class="sidebar-head">
+    <span class="brand-name">ESTIEM LG Sevilla</span>
+    <button class="sidebar-close" id="sidebarClose" aria-label="Cerrar menú">✕</button>
+  </div>
+  <ul class="sidebar-nav" id="sidebarNav">
+    <li><a href="#home" data-route="home"><span class="n">01</span><span data-i18n="nav.home">Inicio</span></a></li>
+    <li><a href="#gallery" data-route="gallery"><span class="n">02</span><span data-i18n="nav.gallery">Galería</span></a></li>
+    <li><a href="#board" data-route="board"><span class="n">03</span><span data-i18n="nav.board">Directiva</span></a></li>
+    <li><a href="#calendar" data-route="calendar"><span class="n">04</span><span data-i18n="nav.calendar">Calendario</span></a></li>
+    <li><a href="#donate" data-route="donate"><span class="n">05</span><span data-i18n="nav.donate">Donaciones</span></a></li>
+    <li><a href="#blog" data-route="blog"><span class="n">06</span><span data-i18n="nav.blog">Blog</span></a></li>
+  </ul>
+  <div class="sidebar-foot">
+    <span data-i18n="footer.follow">Síguenos</span>
+    <div class="socials">
+      <a href="https://instagram.com/estiemlgsevilla" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+      <a href="https://linkedin.com/company/estiemlgseville" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+      <a href="mailto:info@estiemlgsevilla.org" aria-label="Email">@</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ============================== HOME ============================== -->
+  <section class="page-section" id="home" data-section>
+    <div class="hero blueprint-bg">
+      <div class="wrap hero-inner">
+        <p class="eyebrow" data-i18n="hero.eyebrow">European Students of Industrial Engineering and Management</p>
+        <h1 class="hero-title" data-i18n="hero.title">ESTIEM LG Sevilla</h1>
+        <p class="hero-subtitle" data-i18n="hero.subtitle">Formando ingenieros con visión europea desde 2009.</p>
+        <div class="hero-ctas">
+          <a href="#board" class="btn btn-primary" data-i18n="hero.cta_join">Únete a nosotros</a>
+          <a href="#about-anchor" class="btn btn-ghost" data-i18n="hero.cta_about">Descubre quiénes somos</a>
+        </div>
+
+        <div class="stat-row">
+          <div class="stat-cell"><div class="stat-num" data-i18n="about.stat1_n">1990</div><div class="stat-label" data-i18n="about.stat1_l">Fundación de ESTIEM</div></div>
+          <div class="stat-cell"><div class="stat-num" data-i18n="about.stat2_n">2009</div><div class="stat-label" data-i18n="about.stat2_l">Reorganización LG Sevilla</div></div>
+          <div class="stat-cell"><div class="stat-num" data-i18n="about.stat3_n">25+</div><div class="stat-label" data-i18n="about.stat3_l">Países</div></div>
+          <div class="stat-cell"><div class="stat-num" data-i18n="about.stat4_n">70+</div><div class="stat-label" data-i18n="about.stat4_l">Grupos Locales</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="azulejo-divider" aria-hidden="true"></div>
+
+    <div class="wrap" id="about-anchor" style="padding-top:64px;">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="about.eyebrow">Quiénes somos</p>
+        <h2 class="section-title" data-i18n="about.title">Ingeniería, personas y Europa</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <div class="about-block">
+            <h3 data-i18n="about.history_title">Nuestra historia</h3>
+            <p data-i18n="about.history_p1"></p>
+          </div>
+          <div class="about-block">
+            <p data-i18n="about.history_p2"></p>
+          </div>
+          <div class="about-block">
+            <h3 data-i18n="about.mission_title">Nuestra misión</h3>
+            <p data-i18n="about.mission_p"></p>
+          </div>
+          <div class="about-block">
+            <h3 data-i18n="about.what_title">Qué hacemos</h3>
+            <p data-i18n="about.what_p"></p>
+          </div>
+        </div>
+        <div class="about-side tick-card">
+          <h3 data-i18n="about.pillars_title" style="margin-bottom:6px;">Nuestros pilares</h3>
+          <div class="pillars">
+            <div class="pillar"><div class="pillar-icon">01</div><div><h4 data-i18n="about.pillar1_t">Formación</h4><p data-i18n="about.pillar1_d"></p></div></div>
+            <div class="pillar"><div class="pillar-icon">02</div><div><h4 data-i18n="about.pillar2_t">Networking europeo</h4><p data-i18n="about.pillar2_d"></p></div></div>
+            <div class="pillar"><div class="pillar-icon">03</div><div><h4 data-i18n="about.pillar3_t">TIMES</h4><p data-i18n="about.pillar3_d"></p></div></div>
+            <div class="pillar"><div class="pillar-icon">04</div><div><h4 data-i18n="about.pillar4_t">Vida local</h4><p data-i18n="about.pillar4_d"></p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="azulejo-divider green" aria-hidden="true" style="margin-top:64px;"></div>
+
+    <div class="global-section">
+      <div class="global-stripe top"></div>
+      <div class="wrap global-inner">
+        <div class="global-text">
+          <span class="global-badge" data-i18n="global.badge">Parte de una red europea</span>
+          <h2 class="global-title" data-i18n="global.title">ESTIEM a nivel internacional</h2>
+          <p data-i18n="global.text"></p>
+        </div>
+        <a href="https://estiem.org" target="_blank" rel="noopener" class="btn btn-green" data-i18n="global.cta">Visitar estiem.org</a>
+      </div>
+      <div class="global-stripe bottom"></div>
+    </div>
+  </section>
+
+  <!-- ============================== GALLERY ============================== -->
+  <section class="page-section" id="gallery" data-section>
+    <div class="wrap">
+      <div class="album-list-view" id="albumListView">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="gallery.eyebrow">Recuerdos</p>
+          <h2 class="section-title" data-i18n="gallery.title">Galería</h2>
+          <p class="section-subtitle" data-i18n="gallery.subtitle"></p>
+        </div>
+        <div class="album-grid" id="albumGrid"></div>
+      </div>
+
+      <div class="album-detail" id="albumDetailView">
+        <a href="#gallery" class="back-link" id="backToAlbums">← <span data-i18n="gallery.back">Volver a los álbumes</span></a>
+        <div class="section-head">
+          <h2 class="section-title" id="albumDetailTitle"></h2>
+          <p class="section-subtitle" id="albumDetailDate"></p>
+        </div>
+        <div class="photo-grid" id="albumPhotoGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== BOARD ============================== -->
+  <section class="page-section" id="board" data-section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="board.eyebrow">La directiva</p>
+        <h2 class="section-title" data-i18n="board.title">Equipo 2025 – 2026</h2>
+        <p class="section-subtitle" data-i18n="board.subtitle"></p>
+      </div>
+      <div class="board-grid" id="boardGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================== CALENDAR ============================== -->
+  <section class="page-section" id="calendar" data-section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="calendar.eyebrow">Agenda</p>
+        <h2 class="section-title" data-i18n="calendar.title">Calendario</h2>
+        <p class="section-subtitle" data-i18n="calendar.subtitle"></p>
+      </div>
+
+      <div class="cal-legend">
+        <span class="legend-item"><span class="legend-dot dot-local"></span><span data-i18n="calendar.legend_local">Evento local</span></span>
+        <span class="legend-item"><span class="legend-dot dot-international"></span><span data-i18n="calendar.legend_international">Evento internacional</span></span>
+        <span class="legend-item"><span class="legend-dot dot-deadline"></span><span data-i18n="calendar.legend_deadline">Plazo de aplicación</span></span>
+        <span class="legend-item"><span class="legend-dot dot-workshop"></span><span data-i18n="calendar.legend_workshop">Taller / Seminario</span></span>
+      </div>
+
+      <div class="cal-header">
+        <div class="cal-month-label" id="calMonthLabel"></div>
+        <div class="cal-nav">
+          <button id="calPrev" aria-label="Mes anterior">‹</button>
+          <button id="calNext" aria-label="Mes siguiente">›</button>
+        </div>
+      </div>
+      <div class="cal-weekdays" id="calWeekdays"></div>
+      <div class="cal-grid" id="calGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============================== DONATE ============================== -->
+  <section class="page-section" id="donate" data-section>
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="donate.eyebrow">Apoya el proyecto</p>
+        <h2 class="section-title" data-i18n="donate.title">Donaciones</h2>
+        <p class="section-subtitle" data-i18n="donate.subtitle"></p>
+      </div>
+
+      <div class="donate-grid">
+        <div>
+          <h3 style="font-family:var(--f-display);font-size:20px;font-weight:600;" data-i18n="donate.methods_title">Formas de colaborar</h3>
+          <div class="method-list">
+            <div class="method-card">
+              <div><h4 data-i18n="donate.bizum_label">Bizum</h4><p data-i18n="donate.bizum_desc"></p></div>
+            </div>
+            <div class="method-card">
+              <div><h4 data-i18n="donate.bank_label">Transferencia bancaria</h4><p data-i18n="donate.bank_desc"></p></div>
+            </div>
+            <div class="method-card">
+              <div><h4 data-i18n="donate.paypal_label">PayPal</h4><p data-i18n="donate.paypal_desc"></p></div>
+            </div>
+          </div>
+          <p class="thanks-note" data-i18n="donate.thanks">¡Gracias por creer en nosotros!</p>
+        </div>
+
+        <div class="form-card tick-card">
+          <h3 style="font-family:var(--f-display);font-size:20px;font-weight:600;" data-i18n="donate.suggestions_title">Buzón de sugerencias</h3>
+          <p class="section-subtitle" style="margin-bottom:18px;" data-i18n="donate.suggestions_subtitle"></p>
+          <form id="suggestionForm">
+            <div class="field">
+              <label for="sugEmail" data-i18n="donate.label_email">Correo universitario</label>
+              <input type="email" id="sugEmail" required data-i18n-placeholder="donate.email_placeholder" placeholder="tunombre@alum.us.es">
+            </div>
+            <div class="field">
+              <label for="sugSubject" data-i18n="donate.label_subject">Asunto</label>
+              <input type="text" id="sugSubject" required data-i18n-placeholder="donate.subject_placeholder" placeholder="Escribe el asunto de tu mensaje">
+            </div>
+            <div class="field">
+              <label for="sugMessage" data-i18n="donate.label_message">Mensaje</label>
+              <textarea id="sugMessage" required data-i18n-placeholder="donate.message_placeholder" placeholder="Cuéntanos tu idea o sugerencia…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" data-i18n="donate.button_send">Enviar sugerencia</button>
+            <p class="form-success" id="sugSuccess" data-i18n="donate.success"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================== BLOG ============================== -->
+  <section class="page-section" id="blog" data-section>
+    <div class="wrap">
+      <div class="blog-list-view" id="blogListView">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="blog.eyebrow">Actualidad</p>
+          <h2 class="section-title" data-i18n="blog.title">Blog</h2>
+          <p class="section-subtitle" data-i18n="blog.subtitle"></p>
+        </div>
+        <div class="blog-grid" id="blogGrid"></div>
+      </div>
+
+      <div class="post-detail" id="postDetailView">
+        <a href="#blog" class="back-link" id="backToBlog">← <span data-i18n="blog.back">Volver al blog</span></a>
+        <div class="post-thumb" id="postThumb"></div>
+        <p class="post-meta" id="postMeta"></p>
+        <h2 class="post-title" id="postTitle"></h2>
+        <div class="post-content" id="postContent"></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================== FOOTER ============================== -->
+<footer>
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer-text" data-i18n="footer.text"></p>
+      <p class="footer-rights">© <span id="year"></span> ESTIEM LG Sevilla. <span data-i18n="footer.rights">Todos los derechos reservados.</span></p>
+    </div>
+    <div class="footer-socials">
+      <a href="https://instagram.com/estiemlgsevilla" aria-label="Instagram" target="_blank" rel="noopener">IG</a>
+      <a href="https://linkedin.com/company/estiemlgseville" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
+      <a href="mailto:info@estiemlgsevilla.org" aria-label="Email">@</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/i18n.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
